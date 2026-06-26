@@ -317,9 +317,17 @@ CMakeFiles/test_add.dir/test/test_add.cpp.o: \
  /usr/lib/llvm-18/include/mlir/IR/Block.h \
  /usr/lib/llvm-18/include/mlir/IR/Region.h \
  /usr/lib/llvm-18/include/mlir/IR/Builders.h \
- /home/steven-studio/son-dialect/build/lib/SoN/SoNDialect.h.inc \
- /home/steven-studio/son-dialect/build/lib/SoN/SoNOps.h.inc \
  /usr/lib/llvm-18/include/mlir/IR/BuiltinTypes.h \
  /usr/lib/llvm-18/include/mlir/Support/ADTExtras.h \
  /usr/lib/llvm-18/include/mlir/IR/BuiltinTypes.h.inc \
+ /usr/lib/llvm-18/include/mlir/IR/OpImplementation.h \
+ /usr/lib/llvm-18/include/mlir/IR/DialectInterface.h \
+ /usr/lib/llvm-18/include/llvm/Support/SMLoc.h \
+ /usr/lib/llvm-18/include/mlir/IR/OpAsmInterface.h.inc \
+ /usr/lib/llvm-18/include/mlir/Interfaces/InferTypeOpInterface.h \
+ /usr/lib/llvm-18/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
+ /usr/lib/llvm-18/include/mlir/Interfaces/SideEffectInterfaces.h \
+ /usr/lib/llvm-18/include/mlir/Interfaces/SideEffectInterfaces.h.inc \
+ /home/steven-studio/son-dialect/build/lib/SoN/SoNDialect.h.inc \
+ /home/steven-studio/son-dialect/build/lib/SoN/SoNOps.h.inc \
  /usr/include/c++/13/iostream

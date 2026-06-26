@@ -1,1 +1,1 @@
-/usr/bin/g++ CMakeFiles/test_add.dir/test/test_add.cpp.o -o test_add  -Wl,-rpath,/usr/lib/llvm-18/lib lib/SoN/libMLIRSoN.a /usr/lib/llvm-18/lib/libMLIRIR.a /usr/lib/llvm-18/lib/libMLIRSupport.a /usr/lib/llvm-18/lib/libLLVM.so.1 
+/usr/bin/g++ CMakeFiles/test_add.dir/test/test_add.cpp.o -o test_add  -Wl,-rpath,/usr/lib/llvm-18/lib lib/SoN/libMLIRSoN.a /usr/lib/llvm-18/lib/libMLIRIR.a /usr/lib/llvm-18/lib/libMLIRSupport.a /usr/lib/llvm-18/lib/libMLIRInferTypeOpInterface.a /usr/lib/llvm-18/lib/libMLIRIR.a /usr/lib/llvm-18/lib/libMLIRSupport.a /usr/lib/llvm-18/lib/libLLVM.so.1 

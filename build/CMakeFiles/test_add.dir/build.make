@@ -95,6 +95,9 @@ test_add: CMakeFiles/test_add.dir/build.make
 test_add: lib/SoN/libMLIRSoN.a
 test_add: /usr/lib/llvm-18/lib/libMLIRIR.a
 test_add: /usr/lib/llvm-18/lib/libMLIRSupport.a
+test_add: /usr/lib/llvm-18/lib/libMLIRInferTypeOpInterface.a
+test_add: /usr/lib/llvm-18/lib/libMLIRIR.a
+test_add: /usr/lib/llvm-18/lib/libMLIRSupport.a
 test_add: /usr/lib/llvm-18/lib/libLLVM.so.1
 test_add: CMakeFiles/test_add.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/steven-studio/son-dialect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_add"

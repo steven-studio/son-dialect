@@ -377,6 +377,10 @@ lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o: /home/steven-studio/son-dia
   /usr/lib/llvm-18/include/mlir/IR/Value.h \
   /usr/lib/llvm-18/include/mlir/IR/ValueRange.h \
   /usr/lib/llvm-18/include/mlir/IR/Visitors.h \
+  /usr/lib/llvm-18/include/mlir/Interfaces/InferTypeOpInterface.h \
+  /usr/lib/llvm-18/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
+  /usr/lib/llvm-18/include/mlir/Interfaces/SideEffectInterfaces.h \
+  /usr/lib/llvm-18/include/mlir/Interfaces/SideEffectInterfaces.h.inc \
   /usr/lib/llvm-18/include/mlir/Support/ADTExtras.h \
   /usr/lib/llvm-18/include/mlir/Support/InterfaceSupport.h \
   /usr/lib/llvm-18/include/mlir/Support/LLVM.h \
@@ -388,6 +392,10 @@ lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o: /home/steven-studio/son-dia
 /usr/lib/llvm-18/include/mlir/Support/StorageUniquer.h:
 
 /usr/lib/llvm-18/include/mlir/Support/ADTExtras.h:
+
+/usr/lib/llvm-18/include/mlir/Interfaces/SideEffectInterfaces.h.inc:
+
+/usr/lib/llvm-18/include/mlir/Interfaces/InferTypeOpInterface.h:
 
 /usr/lib/llvm-18/include/mlir/IR/ValueRange.h:
 
@@ -466,6 +474,8 @@ lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o: /home/steven-studio/son-dia
 /usr/lib/llvm-18/include/llvm/ADT/StringRef.h:
 
 /usr/lib/llvm-18/include/llvm/ADT/SmallVectorExtras.h:
+
+/usr/lib/llvm-18/include/mlir/Interfaces/InferTypeOpInterface.h.inc:
 
 /usr/lib/llvm-18/include/llvm/ADT/SmallBitVector.h:
 
@@ -792,6 +802,8 @@ lib/SoN/SoNOps.h.inc:
 /usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/c++/13/bits/functexcept.h:
+
+/usr/lib/llvm-18/include/mlir/Interfaces/SideEffectInterfaces.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 

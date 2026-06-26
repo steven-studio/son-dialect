@@ -11,6 +11,7 @@ add_mlir_dialect_library(MLIRSoN
     LINK_LIBS PUBLIC
     MLIRIR
     MLIRSupport
+    MLIRInferTypeOpInterface
 )
 
 target_include_directories(obj.MLIRSoN PRIVATE
