@@ -13,6 +13,7 @@ add_mlir_dialect_library(MLIRSoN
     MLIRIR
     MLIRSupport
     MLIRArithDialect
+    MLIRMathDialect
     MLIRTransforms
     MLIRInferTypeOpInterface
 )
