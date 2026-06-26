@@ -279,6 +279,19 @@ test_add/fast:
 .PHONY : test_add/fast
 
 #=============================================================================
+# Target rules for targets named test_lower
+
+# Build rule for target.
+test_lower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_lower
+.PHONY : test_lower
+
+# fast build rule for target.
+test_lower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lower.dir/build.make CMakeFiles/test_lower.dir/build
+.PHONY : test_lower/fast
+
+#=============================================================================
 # Target rules for targets named MLIRSoNIncGen
 
 # Build rule for target.
@@ -367,6 +380,30 @@ test/test_add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_add.dir/build.make CMakeFiles/test_add.dir/test/test_add.cpp.s
 .PHONY : test/test_add.cpp.s
 
+test/test_lower.o: test/test_lower.cpp.o
+.PHONY : test/test_lower.o
+
+# target to build an object file
+test/test_lower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lower.dir/build.make CMakeFiles/test_lower.dir/test/test_lower.cpp.o
+.PHONY : test/test_lower.cpp.o
+
+test/test_lower.i: test/test_lower.cpp.i
+.PHONY : test/test_lower.i
+
+# target to preprocess a source file
+test/test_lower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lower.dir/build.make CMakeFiles/test_lower.dir/test/test_lower.cpp.i
+.PHONY : test/test_lower.cpp.i
+
+test/test_lower.s: test/test_lower.cpp.s
+.PHONY : test/test_lower.s
+
+# target to generate assembly for a file
+test/test_lower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lower.dir/build.make CMakeFiles/test_lower.dir/test/test_lower.cpp.s
+.PHONY : test/test_lower.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -393,9 +430,13 @@ help:
 	@echo "... MLIRSoN"
 	@echo "... obj.MLIRSoN"
 	@echo "... test_add"
+	@echo "... test_lower"
 	@echo "... test/test_add.o"
 	@echo "... test/test_add.i"
 	@echo "... test/test_add.s"
+	@echo "... test/test_lower.o"
+	@echo "... test/test_lower.i"
+	@echo "... test/test_lower.s"
 .PHONY : help
 
 

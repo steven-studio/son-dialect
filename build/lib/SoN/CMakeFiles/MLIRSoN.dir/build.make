@@ -74,9 +74,11 @@ MLIRSoN_OBJECTS =
 
 # External object files for target MLIRSoN
 MLIRSoN_EXTERNAL_OBJECTS = \
-"/home/steven-studio/son-dialect/build/lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o"
+"/home/steven-studio/son-dialect/build/lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o" \
+"/home/steven-studio/son-dialect/build/lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o"
 
 lib/SoN/libMLIRSoN.a: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o
+lib/SoN/libMLIRSoN.a: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o
 lib/SoN/libMLIRSoN.a: lib/SoN/CMakeFiles/MLIRSoN.dir/build.make
 lib/SoN/libMLIRSoN.a: lib/SoN/CMakeFiles/MLIRSoN.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/steven-studio/son-dialect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library libMLIRSoN.a"

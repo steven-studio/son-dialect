@@ -231,6 +231,30 @@ install-MLIRSoN-stripped/fast:
 	cd /home/steven-studio/son-dialect/build && $(MAKE) $(MAKESILENT) -f lib/SoN/CMakeFiles/install-MLIRSoN-stripped.dir/build.make lib/SoN/CMakeFiles/install-MLIRSoN-stripped.dir/build
 .PHONY : install-MLIRSoN-stripped/fast
 
+LowerToSoN.o: LowerToSoN.cpp.o
+.PHONY : LowerToSoN.o
+
+# target to build an object file
+LowerToSoN.cpp.o:
+	cd /home/steven-studio/son-dialect/build && $(MAKE) $(MAKESILENT) -f lib/SoN/CMakeFiles/obj.MLIRSoN.dir/build.make lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o
+.PHONY : LowerToSoN.cpp.o
+
+LowerToSoN.i: LowerToSoN.cpp.i
+.PHONY : LowerToSoN.i
+
+# target to preprocess a source file
+LowerToSoN.cpp.i:
+	cd /home/steven-studio/son-dialect/build && $(MAKE) $(MAKESILENT) -f lib/SoN/CMakeFiles/obj.MLIRSoN.dir/build.make lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.i
+.PHONY : LowerToSoN.cpp.i
+
+LowerToSoN.s: LowerToSoN.cpp.s
+.PHONY : LowerToSoN.s
+
+# target to generate assembly for a file
+LowerToSoN.cpp.s:
+	cd /home/steven-studio/son-dialect/build && $(MAKE) $(MAKESILENT) -f lib/SoN/CMakeFiles/obj.MLIRSoN.dir/build.make lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.s
+.PHONY : LowerToSoN.cpp.s
+
 SoNDialect.o: SoNDialect.cpp.o
 .PHONY : SoNDialect.o
 
@@ -272,6 +296,9 @@ help:
 	@echo "... install-MLIRSoN-stripped"
 	@echo "... MLIRSoN"
 	@echo "... obj.MLIRSoN"
+	@echo "... LowerToSoN.o"
+	@echo "... LowerToSoN.i"
+	@echo "... LowerToSoN.s"
 	@echo "... SoNDialect.o"
 	@echo "... SoNDialect.i"
 	@echo "... SoNDialect.s"

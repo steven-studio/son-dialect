@@ -90,6 +90,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mlir-generic-headers.dir/DependInfo.cmake"
   "CMakeFiles/mlir-doc.dir/DependInfo.cmake"
   "CMakeFiles/test_add.dir/DependInfo.cmake"
+  "CMakeFiles/test_lower.dir/DependInfo.cmake"
   "lib/SoN/CMakeFiles/MLIRSoNIncGen.dir/DependInfo.cmake"
   "lib/SoN/CMakeFiles/obj.MLIRSoN.dir/DependInfo.cmake"
   "lib/SoN/CMakeFiles/MLIRSoN.dir/DependInfo.cmake"

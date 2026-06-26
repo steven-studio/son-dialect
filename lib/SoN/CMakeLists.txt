@@ -7,10 +7,13 @@ add_public_tablegen_target(MLIRSoNIncGen)
 
 add_mlir_dialect_library(MLIRSoN
     SoNDialect.cpp
+    LowerToSoN.cpp
     DEPENDS MLIRSoNIncGen
     LINK_LIBS PUBLIC
     MLIRIR
     MLIRSupport
+    MLIRArithDialect
+    MLIRTransforms
     MLIRInferTypeOpInterface
 )
 

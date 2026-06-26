@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o"
+  "CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o.d"
   "CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o"
   "CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o.d"
   "SoNDialect.cpp.inc"

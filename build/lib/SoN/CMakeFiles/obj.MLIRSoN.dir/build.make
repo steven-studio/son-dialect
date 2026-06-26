@@ -83,7 +83,22 @@ lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.s"
 	cd /home/steven-studio/son-dialect/build/lib/SoN && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steven-studio/son-dialect/lib/SoN/SoNDialect.cpp -o CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.s
 
+lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/flags.make
+lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o: /home/steven-studio/son-dialect/lib/SoN/LowerToSoN.cpp
+lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/steven-studio/son-dialect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o"
+	cd /home/steven-studio/son-dialect/build/lib/SoN && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o -MF CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o.d -o CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o -c /home/steven-studio/son-dialect/lib/SoN/LowerToSoN.cpp
+
+lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.i"
+	cd /home/steven-studio/son-dialect/build/lib/SoN && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steven-studio/son-dialect/lib/SoN/LowerToSoN.cpp > CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.i
+
+lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.s"
+	cd /home/steven-studio/son-dialect/build/lib/SoN && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steven-studio/son-dialect/lib/SoN/LowerToSoN.cpp -o CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.s
+
 obj.MLIRSoN: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o
+obj.MLIRSoN: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o
 obj.MLIRSoN: lib/SoN/CMakeFiles/obj.MLIRSoN.dir/build.make
 .PHONY : obj.MLIRSoN
 

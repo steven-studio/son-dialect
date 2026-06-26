@@ -24,3 +24,8 @@ target_link_libraries(test_add MLIRSoN MLIRIR MLIRSupport)
 target_include_directories(test_add PRIVATE
     ${CMAKE_BINARY_DIR}/lib/SoN
 )
+add_executable(test_lower test/test_lower.cpp)
+target_link_libraries(test_lower MLIRSoN MLIRIR MLIRSupport
+    MLIRArithDialect MLIRFuncDialect MLIRTransforms)
+target_include_directories(test_lower PRIVATE
+    ${CMAKE_BINARY_DIR}/lib/SoN)

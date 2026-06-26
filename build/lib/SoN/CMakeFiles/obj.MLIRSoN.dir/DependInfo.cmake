@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/steven-studio/son-dialect/lib/SoN/LowerToSoN.cpp" "lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o" "gcc" "lib/SoN/CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o.d"
   "/home/steven-studio/son-dialect/lib/SoN/SoNDialect.cpp" "lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o" "gcc" "lib/SoN/CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o.d"
   )
 
