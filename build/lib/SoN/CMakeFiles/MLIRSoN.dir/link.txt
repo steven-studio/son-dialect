@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMLIRSoN.a CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o
+/usr/bin/ranlib libMLIRSoN.a
