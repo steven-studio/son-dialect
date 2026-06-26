@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMLIRSoN.a CMakeFiles/obj.MLIRSoN.dir/SoNDialect.cpp.o CMakeFiles/obj.MLIRSoN.dir/LowerToSoN.cpp.o
-/usr/bin/ranlib libMLIRSoN.a
