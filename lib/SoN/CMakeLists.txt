@@ -22,3 +22,8 @@ target_include_directories(obj.MLIRSoN PRIVATE
     ${CMAKE_CURRENT_BINARY_DIR}/../../include
     ${CMAKE_BINARY_DIR}/lib/SoN
 )
+
+target_include_directories(obj.MLIRSoN PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../include
+    ${CMAKE_CURRENT_BINARY_DIR}
+)
